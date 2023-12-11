@@ -1,0 +1,20 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1176_1689" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="22" width="27" height="46">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 22.9254H32.8487V67.7604H6V22.9254Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1176_1689)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.66662 25.1611C8.42908 25.1611 8.23569 25.3545 8.23569 25.592V65.0939C8.23569 65.3314 8.42908 65.5248 8.66662 65.5248H30.1818C30.4199 65.5248 30.6133 65.3314 30.6133 65.0939V25.592C30.6133 25.3545 30.4199 25.1611 30.1818 25.1611H8.66662ZM30.1818 67.7605H8.66662C7.19609 67.7605 6 66.5644 6 65.0939V25.592C6 24.1221 7.19609 22.9254 8.66662 22.9254H30.1818C31.6523 22.9254 32.849 24.1221 32.849 25.592V65.0939C32.849 66.5644 31.6523 67.7605 30.1818 67.7605Z" fill="#4DA1FF"/>
+</g>
+<mask id="mask1_1176_1689" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="12" width="69" height="56">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 67.7604H74.9207V12.6668H6V67.7604Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_1176_1689)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.11719 60.5704H31.7299V58.3347H7.11719V60.5704Z" fill="#4DA1FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M70.3664 53.2721H37.096V51.0364H68.1307V14.9026H22.4505V21.5074H20.2148V12.6669H70.3664V53.2721Z" fill="#3EC08E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M74.9214 58.1364H37.918V55.9007H72.6857V14.8926H74.9214V58.1364Z" fill="#4DA1FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M46.3906 63.8027H48.6263V57.0185H46.3906V63.8027Z" fill="#4DA1FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M38.0781 64.8395H56.939V62.6038H38.0781V64.8395Z" fill="#4DA1FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.4245 62.0216C18.8114 62.0216 18.3128 62.5207 18.3128 63.1339C18.3128 63.747 18.8114 64.2455 19.4245 64.2455C20.0377 64.2455 20.5362 63.747 20.5362 63.1339C20.5362 62.5207 20.0377 62.0216 19.4245 62.0216ZM19.4245 64.8045C18.5034 64.8045 17.7539 64.0555 17.7539 63.1339C17.7539 62.2128 18.5034 61.4627 19.4245 61.4627C20.3456 61.4627 21.0951 62.2128 21.0951 63.1339C21.0951 64.0555 20.3456 64.8045 19.4245 64.8045Z" fill="#3EC08E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.11719 29.5994H31.7299V27.3637H7.11719V29.5994Z" fill="#4DA1FF"/>
+</g>
+</svg>

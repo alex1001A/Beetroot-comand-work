@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-font: 'Lato', sans-serif;
+
+    --hero-title-font: 400 34px/46px var(--main-font);
+    --section-title-font: 400 28px/40px var(--main-font);
+    --text-font: 400 16px/28px var(--main-font);
+    --button-text-font: 700 14px/20px var(--main-font);
+    --benefits-item-font: 700 16px/28px var(--main-font);
+    --steps-title-item-font: 400 48px/24px var(--main-font);
+    --steps-description-item-font: 700 22px/normal var(--main-font);
+    --steps-text-item-font: 400 16px/24px var(--main-font);
+
+
+    /* Variable colors */
+    --white-color: #fff;
+    --dark-blue-color: #020046;
+    --green-color: #3EC08E;
+    --linear-gradient_blue-color:#4DA1FF;
+}
+
+body {
+    background-color: var(--dark-blue-color);
+    font-family: var(--main-font);
+    color: var(--white-color);
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 340px;
+    max-height: 48px;
+    background-color: var(--green-color);
+    font: var(--button-text-font);
+    border-radius: 26px;
+    padding: 14px 0;
+    border: var(--green-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: var(--white-color);
+    color: var(--dark-blue-color);
+}
+
+/* Benefits */
+
+.benefits {
+    margin-top: 100px;
+}
+
+.benefits__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-title{
+    font: var(--section-title-font);
+}
+
+.benefits__title {
+    margin-bottom: 60px;
+}
+
+.benefits-box {
+    max-width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.benefits-box__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    text-align: center;
+    text-transform: uppercase;
+    font: var(--benefits-item-font);
+    gap: 18px;
+    margin-bottom: 80px;
+    margin-right: 50px;
+    transition: all 0.5s;
+}
+
+.benefits-box__item:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.benefits-box__item:nth-child(4) {
+    margin-right: 0;
+}
+
+.benefits-box__item:nth-child(8) {
+    margin-right: 0;
+}
+
+.benefits-box__img {
+    width: 80px;
+    height: 80px;
+}
+
+.benefits-box__text {
+    padding: 0 14px;
+}
+
+.benefits__button {
+    margin-bottom: 100px;
+}
+
+/* Benefits END*/
+
+/* Safety */
+
+.safety {
+    margin-bottom: 100px;
+}
+
+.safety__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 38px 0 48px 0;
+    flex-wrap: wrap;
+}
+
+.safety-box {
+    max-width: 526px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.safety__sub-title {
+    margin-bottom: 24px;
+}
+
+.safety__text {
+    margin-bottom: 32px;
+    font: var(--text-font);
+}
+
+/* Safety END*/
+
+/* Join */
+
+.join__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.join__sub-title {
+    margin-bottom: 43px;
+}
+
+.join-box {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.join-item {
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.join-item__count {
+    font: var(--steps-title-item-font);
+}
+
+.join-item__description {
+    font: var(--steps-description-item-font);
+}
+
+.join-item__text {
+    font: var(--steps-text-item-font);
+    max-width: 300px;
+}
+
+.join__button {
+    margin-bottom: 110px;
+}
+/* Join END*/
+
+/* Footer */
+
+.footer {
+    background-color: var(--white-color);
+    width: 100%;
+}
+
+.footer__container {
+    display: flex;
+    gap: 90px;
+    padding: 46px 0 160px 0;
+    justify-content: center;
+}
+
+/* Footer END*/
