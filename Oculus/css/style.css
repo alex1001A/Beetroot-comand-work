@@ -1,22 +1,202 @@
-html{
-  box-sizing: border-box;
+html {
+    box-sizing: border-box;
+    font-size: 1px;
 }
 
 *,
 *::before,
-*::after{
-  box-sizing: inherit;
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
 }
 
-a{
-  color: inherit;
-  text-decoration: none;
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
-li{
-  list-style: none;
+li {
+    list-style: none;
 }
 
-img{
-  max-width: 100%;
+img {
+    max-width: 100%;
 }
+
+body {
+    font-family: var(--main-font-family);
+    font-size: 16rem;
+    font: var(--main-font);
+    color: var(--main-font-grey-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Font styles */
+
+@font-face {
+    font-family: 'Helvetica', sans-serif;
+    src: url(../fonts/helvetica.woff2);
+}
+
+@font-face {
+    font-family: 'Helvetica-Bold', sans-serif;
+    src: url(../fonts/helvetica-bold.woff2);
+}
+
+:root {
+
+    --main-font-family: 'Helvetica', sans-serif;
+    --add-font-family: 'Helvetica-Bold', sans-serif;
+
+    --main-font: 400 16rem/normal var(--main-font-family);
+    --title-font: 400 96rem/normal var(--main-font-family);
+    --subtitle-font: 400 36rem/normal var(--main-font-family);
+    --hero-text-font: 400 13rem/normal var(--main-font-family);
+    --hero-btn-text-font: 700 16rem/2normal var(--main-font-family);
+
+    --main-white-color: #F6F4F5;
+    --main-font-grey-color: #5C5C5E;
+    --basket-order-black-color: #000;
+    --header-border-color: #CACAD6;
+    --btn-violet-gradient-color: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    --btn-price-color: rgb(217, 217, 217);
+    --btn-gradient-hover-color: linear-gradient(0deg, rgba(255,195,63,1) 0%, rgb(124, 57, 9) 100%);
+} 
+
+/* Font styles END*/
+
+/* Header */
+
+.header {
+    padding: 15rem 0;
+    border-bottom: 1px solid var(--header-border-color);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    transition: all 0.2s;
+    max-width: 240rem;
+}
+
+.menu__link {
+    padding: 0 1rem;
+}
+
+.menu__link:hover {
+    color: var(--basket-order-black-color);
+    font-weight: 700;
+}
+
+.logo {
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.basket:hover {
+    transform: scale(1.2);
+}
+
+.basket__order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    font-size: 10rem;
+    color: var(--main-white-color);
+    left: 12rem;
+    bottom: -4rem;
+    background-color: var(--basket-order-black-color);
+}
+
+/* Header END*/
+
+/* Hero */
+
+.hero {
+    background-image: url(../images/hero/bcg.jpg);
+    min-height: calc(100vh - 80rem);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    padding-top: 240rem; 
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    font: var(--title-font);
+    margin-bottom: 10rem;
+}
+
+.subtitle {
+    font: var(--subtitle-font);
+    margin-bottom: 5rem;
+}
+
+.hero__text {
+    font: var(--hero-text-font);
+    margin-bottom: 50rem;
+}
+
+.main-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+    border: none;
+    background: var(--btn-violet-gradient-color);
+    cursor: pointer;
+    padding: 2rem;
+    font: var(--hero-btn-text-font);
+    font-weight: 700;
+}
+
+.main-button:hover {
+    background: var(--btn-gradient-hover-color);
+}
+
+.button__text {
+    padding: 21rem 111rem;
+    color: var(--main-white-color);
+    
+}
+
+.button__price {
+    padding: 21rem 105rem;
+    background-color: var(--btn-price-color);
+    color: var(--main-font-grey-color);
+}
+
+/* Hero END*/
