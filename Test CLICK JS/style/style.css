@@ -1,0 +1,59 @@
+.light {
+    --bg-color: #fff;
+    --color-text: #000;
+}
+
+.dark {
+    --bg-color: #000;
+    --color-text: #fff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--color-text);
+}
+
+.btn__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.switch {
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: beige;
+    display: flex;
+}
+
+.switch--1 {
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: beige;
+    display: flex;
+}
+
+.switch__item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.switch__item--1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: green;
+}
+
+.is-active {
+    justify-content: flex-end;
+}
+
+.green {
+    color: green;
+}

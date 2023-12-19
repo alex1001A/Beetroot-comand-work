@@ -79,8 +79,8 @@ body {
 }
 
 .nav {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
 }
@@ -103,6 +103,7 @@ body {
 }
 
 .logo {
+    justify-self: center;
     transition: all 0.5s;
 }
 
@@ -111,6 +112,7 @@ body {
 }
 
 .basket {
+    justify-self: end;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -200,3 +202,9 @@ body {
 }
 
 /* Hero END*/
+
+/* Features */
+
+
+
+/* Features END*/
