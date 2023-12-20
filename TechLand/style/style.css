@@ -20,12 +20,21 @@
 /* Fonts styles */
 :root {
 
-    --main-quicksand-font-family: 'Quicksand', sans-serif;
-    --secondary-nunito-font-family: 'Nunito', sans-serif;
-    --oswald-font-family: 'Oswald', sans-serif;
-    --roboto-font-family: 'Roboto', sans-serif;
-    
-    
+  --quicksand-font-family: 'Quicksand', sans-serif;
+  --nunito-font-family: 'Nunito', sans-serif;
+
+  --quicksand-bold-font: 700 40px/normal var(--quicksand-font-family);
+  --nunito-bold-font: 700 20px/normal var(--nunito-font-family);
+  --nunito-medium-font: 500 16.5px/normal var(--nunito-font-family);
+  --quicksand-light-font: 300 40px/normal var(--quicksand-font-family);
+  --nunito-regular-font: 400 15px/normal var(--nunito-font-family);
+  --quicksand-medium-font: 300 40px/normal var(--quicksand-font-family);
+  --quicksand-semibold-font: 600 16.6px/normal var(--quicksand-font-family);
+  --nunito-extrabold-font: 800 49px/normal var(--nunito-font-family);
+  --nunito-semibold-font: 600 18.5px/normal var(--nunito-font-family);
+  --quicksand-regular-font: 400 18.5px/normal var(--quicksand-font-family);
+
+  --
 
 
 }
