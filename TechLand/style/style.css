@@ -72,6 +72,7 @@ button {
   background: var(--main-gradient-color);
   border: none;
   color: inherit;
+  transition: all 0.5s;
 }
 
 .text {
@@ -144,6 +145,7 @@ button {
   border-radius: 35.5px;
   max-height: 57.7px;
 }
+
 
 .menu__btn {
   display: flex;
@@ -251,7 +253,7 @@ button {
   display: flex;
   flex-direction: row;
   text-align: left;
-align-items: center;
+  align-items: center;
   padding: 10px 22px;
   border-radius: 41.7px;
 }
