@@ -66,6 +66,7 @@ body {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 .main-button {
@@ -146,6 +147,10 @@ button {
   max-height: 57.7px;
 }
 
+.get-it-touch__button:hover {
+  transform: scale(1.1);
+  color: var(--page-color);
+}
 
 .menu__btn {
   display: flex;
@@ -249,6 +254,11 @@ button {
   border-radius: 41.7px;
 }
 
+.store-btn--google:hover {
+  transform: scale(1.1);
+  color: var(--page-color);
+}
+
 .store-btn--apple {
   display: flex;
   flex-direction: row;
@@ -258,11 +268,115 @@ button {
   border-radius: 41.7px;
 }
 
+.store-btn--apple:hover {
+  transform: scale(1.1);
+  color: var(--page-color);
+}
+
 /* Hero END*/
 
 
 /* About us */
 
+.about-us__container {
+  display: flex;
+  gap: 70px;
+  flex-grow: 1;
+  margin-bottom: 153.5px;
+}
 
+.about-us__content {
+  max-width: 575px;
+}
+
+.section__subtitle {
+  font: var(--nunito-bold-font);
+  font-size: 20px;
+  color: var(--decor-text-rose-color);
+  margin-bottom: 35px;
+}
+
+.content__title--light {
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+.about-us__text {
+  margin-bottom: 75.5px;
+  color: var(--sub-text);
+}
+
+.gradient-button {
+  display: flex;
+  align-items: center;
+  background: var(--main-gradient-color);
+  padding: 1px;
+  border-radius: 35.5px;
+  max-width: 166px;
+  transition: all 0.5s;
+}
+
+.gradient-button:hover {
+  transform: scale(1.1);
+}
+
+.border-button {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  border-radius: 35.5px;
+  background: var(--page-color);
+  max-height: 57.7px;
+  font: var(--quicksand-regular-font);
+  color: inherit;
+  transition: all 0.5s;
+}
+
+.border-button:hover {
+  background: var(--main-gradient-color);
+  color: var(--page-color);
+}
+
+.about-us__video {
+  min-width: 620px;
+  height: 412px;
+  border-radius: 13.4px;
+  background: url(/TechLand/img/about-us/Video_1-about-us_page.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button {
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.about-us__video:hover .play-button {
+  transform: scale(1.2);
+}
 
 /* About us END*/
+
+.services__container {
+  text-align: center;
+}
+
+.services__subtitle {
+  margin-bottom: 14.2px;
+}
+
+.services__title {
+  margin-bottom: 108px;
+}
+
+.offer-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.offer-block__item {
+  padding: 30px 50px;
+  display: flex;
+}
