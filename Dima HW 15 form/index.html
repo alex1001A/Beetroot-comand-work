@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="create">
+            <div class="container create__container">
+                <h2 class="title">Create an Account</h2>
+                <form action="" class="create__form">
+                    <div class="name__container">
+                        <div class="create__input">
+                            <label for="input-fname">
+                                <p class="input-name">First Name</p>
+                                <input id="input-fname" type="text" class="input__field" required>
+                            </label>
+                        </div>
+                        <div class="create__input">
+                            <label for="input-lname">
+                                <p class="input-name">Last Name</p>
+                                <input id="input-lname" type="text" class="input__field" required>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="create__input">
+                        <label for="input-email">
+                            <p class="input-name">E-mail</p>
+                            <input id="input-email" type="email" class="input__field" required>
+                        </label>
+                        <p class="description email__description">We'll never share your email with anyone else.</p>
+                    </div>
+                    <div class="input__gender">
+                        <div class="gender__sub-container">
+                            <input id="inp-gen-m" name="gender" type="radio" checked>
+                            <label for="inp-gen-m" class="gender__row">
+                                <div class="gender__icon"></div>
+                                <div class="input-name">Male</div>
+                            </label>
+                        </div>
+                        </label>
+                        <div class="gender__sub-container">
+                            <input id="inp-gen-f" name="gender" type="radio">
+                            <label for="inp-gen-f" class="gender__row">
+                                <div class="gender__icon"></div>
+                                <div class="input-name">Female</div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="country-city__container">
+                        <div class="create__input">
+                            <p class="input-name">Country</p>
+                            <label for="country">
+                                <select name="" id="country" aria-placeholder="Select" class="input__field" required>
+                                    <option value="">Ukraine</option>
+                                    <option value="">Germany</option>
+                                    <option value="">France</option>
+                                    <option value="">Denmark</option>
+                                    <option value="">Belgium</option>
+                                    <option value="">Netherland</option>
+                                    <option value="">Poland</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="create__input">
+                            <p class="input-name">City</p>
+                            <label for="input-city">
+                                <input id="input-city" type="text" class="input__field" required>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="sign-up">
+                        <button class="sign-up__button">Sign Up</button>
+                        <p class="description button__description">
+                            By clicking the 'Sign Up' button, you confirm that you accept our <br>
+                            <a href="" class="link">Terms of Use</a>
+                            and
+                            <a href="" class="link">Privacy Policy</a>
+                        </p>
+                    </div>
+                    <img src="./img/line.svg" alt="Line" class="line">
+                    <div class="log-in">
+                        <p class="input-name">Have an account?</p>
+                        <a href="" class="log-in__link">Log In</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="profile">
+            <div class="container profile__container">
+                <h2 class="title">Profile</h2>
+                <div class="header__profile">
+                    <img src="./img/profile-photo.png" alt="" class="profile-photo">
+                    <div class="photo-paste">
+                        <div class="photo-paste__input">
+                            <input id="add-photo" type="text" class="input__field">
+                            <p class="description photo-paste__input-description">Up to 1 MB (300x300 px)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-email__container">
+                    <div class="profile__input">
+                        <label for="profile-name">
+                            <p class="input-name">Name</p>
+                            <input id="profile-name" type="text" class="input__field">
+                        </label>
+                    </div>
+                    <div class="profile__input">
+                        <label for="profile-email">
+                            <p class="input-name">E-mail</p>
+                            <input id="profile-email" type="email" class="input__field">
+                        </label>
+                    </div>
+                </div>
+                <div class="country-city__container">
+                    <div class="profile__input">
+                        <p class="input-name">Country</p>
+                        <label for="country">
+                            <select name="" id="country" aria-placeholder="Select" class="input__field" required>
+                                <option value="">Ukraine</option>
+                                <option value="">Germany</option>
+                                <option value="">France</option>
+                                <option value="">Denmark</option>
+                                <option value="">Belgium</option>
+                                <option value="">Netherland</option>
+                                <option value="">Poland</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="profile__input">
+                        <p class="input-name">City</p>
+                        <label for="input-city">
+                            <input id="input-city" type="text" class="input__field">
+                        </label>
+                    </div>
+                </div>
+                <div class="zip-code-phone__container">
+                    <div class="profile__input">
+                        <p class="input-name">Zip Code</p>
+                        <label for="input-zip-code">
+                            <input id="input-zip-code" type="number" class="input__field">
+                        </label>
+                    </div>
+                    <div class="profile__input">
+                        <p class="input-name">Phone Number</p>
+                        <label for="input-phone">
+                            <input id="input-phone" type="number" class="input__field">
+                        </label>
+                    </div>
+                </div>
+                <button class="update__button">Update</button>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
